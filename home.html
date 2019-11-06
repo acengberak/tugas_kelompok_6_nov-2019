@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -37,7 +37,110 @@
 
     <main>
         <section>
-
+            <section class="CTA">
+                <div class="jumbotron jumbotron-fluid text-center" style="background-image: url(img/hasan/cta.jpg);">
+                  <div class="container">
+                    <h1 class="display-4">Keep In Touch</h1>
+                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    <button id="tombol" type="button" class="btn btn-light" style="background-color: transparent;">
+                    <p id="p">Contact Us</p>
+                    </button>
+                  </div>
+                </div>
+            </section>
+            <section class="BLOG">
+                <div class="container">
+                    <!-- jumbotron -->
+                    <div class="jumbotron text-center" style="background: white;">
+                      <h1 class="display-4" style="margin-bottom: 20px;">BLOG</h1>
+                        <a id="tombol2" class="btn btn-danger btn-lg" href="#" role="button" style="margin-bottom: 20px;">Learn more</a>
+                        <p class="lead">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>
+                    </div>
+                    <div class="card-group">
+                        <div class="card" style="margin: 10px;">
+                            <img src="img/hasan/blog1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card" style="margin: 10px;">
+                            <img src="img/hasan/blog2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card" style="margin: 10px;">
+                                <img src="img/hasan/blog3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="TESTI">
+                <div class="jumbotron jumbotron-fluid  text-center" style="height: 100%;background-image: url(img/hasan/cta.jpg);">
+                  <div class="container">
+                    <h1 class="display-4" style="margin-bottom: 40px;">What Our Clients Says</h1>
+                    <p class="lead">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>
+                    <img src="img/hasan/client.jpg" alt="..." class="rounded-circle" style="height: 80px;width: 80px;margin-bottom: 40px;margin-top: 40px;">
+                    <p class="lead">Nulla faucibus enim in velit accumsan malesuada eget ac neque. Suspendisse mollis sed nisl at tincidunt. Nulla dignissim purus et metus scelerisque euismod. Aliquam eu malesuada odio, eget vestibulum nisl. Nullam euismod nisl eget ante eleifend, in dictum sem sollicitudin.</p>
+                    <h5 class="display-5">Jef Bosz</h5>
+                    <h6 class="display-5">CEO AMAZONK</h6>
+                  </div>
+                </div>
+            </section>
+            <section class="KONTAK">
+                <div class="jumbotron jumbotron-fluid text-center" style="background: white;">
+                  <div class="container">
+                    <h1 class="display-4">CONTACT US</h1>
+                    <p class="lead">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>
+                  </div>
+                </div>
+                <!-- form -->
+                <div class="container">
+                    <form>
+                      <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">Password</label>
+                              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                      </div>
+                      <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                      <div class="form-row">
+                            <div class="form-group col-md-6">
+                                  <label for="inputCity">City</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                  <label for="inputState">State</label>
+                                  <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                              <label for="inputZip">Zip</label>
+                              <input type="text" class="form-control" id="inputZip">
+                            </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </section>
         </section>
     </main>
 
@@ -64,7 +167,18 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/javascript.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script>
+        window.addEventListener('scroll', () => {
+            const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = window.scrollY;
+
+            if (Math.ceil(scrolled) === scrollable) {
+                alert("HOREEEE!!");
+            }
+            console.log("scrolled");
+        });
+    </script>
 
 </body>
 
