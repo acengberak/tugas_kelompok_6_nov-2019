@@ -3,3 +3,101 @@
 body {
     font-family: "Questrial", sans-serif;
 }
+
+
+
+/* ADIT CSS */
+nav.shrink {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60px;
+    padding-top: 0px;
+    transition: 0.3s;
+}
+
+.carousel-inner h5 {
+    position: relative;
+    top: -50vmin;
+    font-size: 5vmin;
+    font-weight: bold;
+}
+
+.carousel-inner p {
+    position: relative;
+    top: -50vmin;
+    font-size: 1.5rem;
+}
+
+.bd-example {
+    position: relative;
+    top: -19vmin;
+    z-index: 0;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section-content .about-image img {
+    padding: 30px;
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 7px solid #fff;
+    border-radius: 35px;
+    box-shadow: 0 0 0 1px #ececec;
+    display: inline-block;
+    height: 110px;
+    line-height: 140px;
+    width: 110px;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    transition: 0.3s;
+}
+
+.section-content .about-image img:hover {
+    background: #b3b3b3 none repeat scroll 0 0;
+}
+
+.icon-card .row .col-sm-3 .card-tittle a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.section-2 {
+    color: white;
+}
+
+.section-2 .portfolio button {
+    background: none;
+    border: 3px solid white;
+    color: white;
+    padding: 1vmin 3vmin;
+}
+
+.section-2 .portfolio-warp .portfolio-content-img .row .col-sm-4 img {
+    height: 95%;
+}
+
+.section-3 .ourteam button {
+    background: #d95c5c;
+    border: 3px solid #d95c5c;
+    color: white;
+    padding: 1vmin 3vmin;
+}
+
+.ourteam-warp .card {
+    height: 95%;
+    transition: 0.5s;
+}
+
+.ourteam-warp .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
